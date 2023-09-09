@@ -1,0 +1,196 @@
+
+/* --------------- section 1 --------------------- */
+.section{
+    padding:0% 15% 0% 15%;
+    display:flex;
+    justify-content: center;
+    
+}
+.section:first-child{
+    background:linear-gradient(to right,#f4d2a6,#f4ddc1,#f2e0cb,#f4ddc1,#f4d2a6);
+
+}
+.section1__box{
+    padding-top: 5%;
+    display:flex;
+    align-items: center;
+
+}
+p{
+    line-height: 250%;
+}
+.text__box{
+    width:50%;
+
+    padding:10% 0%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color:black;
+    font-size: 120%;
+    font-weight: bold;
+}
+
+.hl{
+	color:violet;
+	font-size:140%;
+}
+
+.img__box{
+    width:50%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* ------------- section 2 --------------*/
+
+.section2__box{
+    width:100%;
+    height:65%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.section2__top{
+    display:flex;
+    width:100%;
+    height:20%;
+}
+.section2__top--title{
+    width:70%;
+    padding-left: 5%;
+    display: flex;
+    flex-direction:column ;
+    justify-content: center;
+}
+.section2__top--title>span{
+    font-size:200%;
+    font-weight: bold;
+    color:black;
+}
+.section2__top--button{
+    width:30%;
+    display: flex;
+    flex-direction:column ;
+    justify-content: center;
+    align-items: flex-end;
+
+}
+.section2__top--button>button{
+    width:150px;
+	height:50px;
+	background-color: black;
+	color:#fff;
+	font-size:16px;
+	border:none;
+	border-radius: 40px;
+	margin:10px auto;
+}
+.section2__top--button>button>a{
+    color:#fff;
+
+}
+
+.section2__bottom{
+    width:100%;
+    height:80%;
+    display: flex;
+
+}
+.section2__img__box{
+    width:33%;
+
+}
+.section2__img__box>img{
+    width:100%;
+    height:90%;
+}
+
+.section2__img__box__text{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section2__img__box__text>span{
+    font-size: 115%;
+    font-weight: bold;
+    color:black;
+}
+
+
+/* -------------- section3 ------------------ */
+/* .section34__box,.section34__top,.section34__bottom,.section34__bottom__img,.section34__text__text,.section34__text__btn{
+    border:4px solid black;
+} */
+.section34__box{
+    
+    width:100%;
+    height:65%;
+    
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.section34__top{
+    width:100%;
+    height:20%;
+
+    display: flex;
+    align-items: center;
+}
+.section34__top>span{
+    font-size:200%;
+    font-weight: bold;
+    color:black;
+}
+.section34__bottom{
+    width:100%;
+    height:80%;
+    display:flex;
+}
+.section34__bottom__img{
+    width:50%;
+    height:100%;
+}
+.section34__bottom__img>img{
+    width:100%;
+    height:120%;
+}
+.section34__text__text>span{
+    line-height: 200%;
+    font-size: 130%;
+    font-weight: bold;
+    color:black;
+    text-align: center;
+}
+.section34__text__text{
+    display: flex;
+    align-items: flex-end;
+    width:100%;
+    height:50%;
+}
+.section34__text__btn{
+    width:100%;
+    height:48%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section34__text__btn>button{
+    width:90%;
+	height:60%;
+	background-color: white;
+	border-radius:70px ;
+	font-size:300%;
+}
+.section34__text__btn>button>a{
+	color:black;
+}
+
+/* BUTTON HOVER */
